@@ -1,0 +1,30 @@
+{
+  "name": "unrar_file",
+  "version": "0.0.1",
+  "summary": "Archive a rar file using junrar android and Unrarkit in ios code on github.",
+  "description": "A new flutter plugin project.",
+  "homepage": "https://github.com/syedecryptr/unrar_file",
+  "license": {
+    "file": "../LICENSE"
+  },
+  "authors": {
+    "syedecryptr": "syedecryptr@gmail.com"
+  },
+  "source": {
+    "path": "."
+  },
+  "source_files": [
+    "Classes/**/*"
+  ],
+  "dependencies": {
+    "Flutter": [
+
+    ],
+    "UnrarKit": [
+
+    ]
+  },
+  "platforms": {
+    "ios": "9.0"
+  }
+}

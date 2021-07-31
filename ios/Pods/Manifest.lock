@@ -1,0 +1,47 @@
+PODS:
+  - Flutter (1.0.0)
+  - flutter_archive (0.0.1):
+    - Flutter
+    - ZIPFoundation (= 0.9.11)
+  - path_provider (0.0.1):
+    - Flutter
+  - unrar_file (0.0.1):
+    - Flutter
+    - UnrarKit
+  - UnrarKit (2.9):
+    - UnrarKit/unrar-lib (= 2.9)
+  - UnrarKit/unrar-lib (2.9)
+  - ZIPFoundation (0.9.11)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - flutter_archive (from `.symlinks/plugins/flutter_archive/ios`)
+  - path_provider (from `.symlinks/plugins/path_provider/ios`)
+  - unrar_file (from `.symlinks/plugins/unrar_file/ios`)
+
+SPEC REPOS:
+  trunk:
+    - UnrarKit
+    - ZIPFoundation
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  flutter_archive:
+    :path: ".symlinks/plugins/flutter_archive/ios"
+  path_provider:
+    :path: ".symlinks/plugins/path_provider/ios"
+  unrar_file:
+    :path: ".symlinks/plugins/unrar_file/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 434fef37c0980e73bb6479ef766c45957d4b510c
+  flutter_archive: e7010a2779b4ff1483b00386bfb4e847f5836182
+  path_provider: abfe2b5c733d04e238b0d8691db0cfd63a27a93c
+  unrar_file: ead248ffb2e777cb67f083bc1bb1fb45d4157dbd
+  UnrarKit: 99e3f0222a98a212188e1a6975dcf5aa798d26dd
+  ZIPFoundation: b1f0de4eed33e74a676f76e12559ab6b75990197
+
+PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c
+
+COCOAPODS: 1.10.1

@@ -1,0 +1,6 @@
+framework module unrar_file {
+  umbrella header "unrar_file-umbrella.h"
+
+  export *
+  module * { export * }
+}
